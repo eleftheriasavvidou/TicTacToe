@@ -48,6 +48,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="50dp"
         android:text="QUIT"
+        android:onClick="clickExit"
         android:textColor="@android:color/black"
         android:textSize="36sp"
         android:textStyle="bold"
