@@ -7,10 +7,10 @@
     tools:context="com.example.erie.tictactoe.StartActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/tictactoe1" />
+        app:srcCompat="@drawable/toe" />
 
     <Button
         android:id="@+id/button"
