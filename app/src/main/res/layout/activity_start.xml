@@ -4,17 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
     tools:context="com.example.erie.tictactoe.StartActivity">
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/toe"/>
+        app:srcCompat="@drawable/ttt" />
 
     <Button
         android:id="@+id/button"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="210dp"
         android:layout_height="70dp"
         android:layout_marginEnd="32dp"
@@ -22,7 +23,7 @@
         android:layout_marginTop="150dp"
         android:text="PLAY"
         android:textColor="@android:color/black"
-        android:textSize="36sp"
+        android:textSize="46sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,27 +31,27 @@
 
     <Button
         android:id="@+id/button2"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="210dp"
         android:layout_height="70dp"
         android:layout_marginTop="50dp"
         android:text="HELP"
         android:textColor="@android:color/black"
-        android:textSize="36sp"
+        android:textSize="46sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button3"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="210dp"
         android:layout_height="70dp"
         android:layout_marginTop="50dp"
-        android:text="QUIT"
         android:onClick="clickExit"
+        android:text="QUIT"
         android:textColor="@android:color/black"
-        android:textSize="36sp"
+        android:textSize="46sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/button2"
         app:layout_constraintTop_toBottomOf="@+id/button2" />

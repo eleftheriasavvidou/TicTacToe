@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\george\Desktop\TicTacToe4\TicTacToe.iml" filepath="C:\Users\george\Desktop\TicTacToe4\TicTacToe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TicTacToe4.iml" filepath="$PROJECT_DIR$/TicTacToe4.iml" />
+      <module fileurl="file://C:\Users\erie.DESKTOP-98ESH6S\Desktop\TicTacToe1\TicTacToe.iml" filepath="C:\Users\erie.DESKTOP-98ESH6S\Desktop\TicTacToe1\TicTacToe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToe1.iml" filepath="$PROJECT_DIR$/TicTacToe1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\george\Desktop\TicTacToe4\app\app.iml" filepath="C:\Users\george\Desktop\TicTacToe4\app\app.iml" />
     </modules>
   </component>
 </project>
